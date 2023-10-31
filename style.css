@@ -1,0 +1,126 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
+
+
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: #000;
+  margin: 0 auto;
+  padding: 0;
+}
+
+
+header {
+  display: flex;
+  background: url("two\ 1\ \(1\).png");
+  margin: 0 auto;
+  width: 1440.067px;
+  height: 889px;
+}
+
+.main {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  position: absolute;
+  top: 60px;
+  left: 120px;
+}
+
+.col {
+  color: white;
+  display: flex;
+  gap: 44px;
+  position: absolute;
+  top: 40px;
+  left: 600px;
+  list-style-type: none;
+}
+
+button {
+  width: 209px;
+  height: 48px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  background: var(--yeallow-brand-color, #fc0);
+  display: flex;
+  position: absolute;
+  margin-left: 1110px;
+  top: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.money {
+  color: white;
+  font-size: 26px;
+  font-weight: 700;
+  position: absolute;
+  top: 149px;
+  left: 120px;
+}
+
+p {
+  color: #fff;
+  font-size: 64px;
+  font-weight: 600;
+  position: absolute;
+  top: 213px;
+  left: 120px;
+}
+
+.elips {
+  background: var(--yeallow-brand-color, #fc0);
+  width: 205px;
+  height: 205px;
+  border-radius: 50%;
+  position: absolute;
+  top: 378px;
+  left: 120px;
+}
+
+.number {
+  color: var(--white-secondery-color, #fff);
+  font-size: 63.896px;
+  font-weight: 700;
+  position: absolute;
+  left: 40px;
+  top: 15px;
+}
+
+.discount {
+  color: var(--white-secondery-color, #fff);
+  font-size: 31.948px;
+  font-weight: 700;
+  position: absolute;
+  top: 100px;
+  left: 20px;
+}
+
+.app {
+  color: #fff;
+  font-size: 36px;
+  font-weight: 600;
+  position: absolute;
+  top: 385px;
+  left: 354px;
+  right: 840px;
+}
+
+button-2 {
+  width: 209px;
+  height: 48px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  background: var(--yeallow-brand-color, #fc0);
+  display: flex;
+  position: absolute;
+  top: 845px;
+  left: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

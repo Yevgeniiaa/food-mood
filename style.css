@@ -1,19 +1,15 @@
 @import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
 
-
-
 body {
   font-family: "Poppins", sans-serif;
-  background: #000;
-  margin: 0 auto;
-  padding: 0;
+  background: white;
 }
-
 
 header {
   display: flex;
-  background: url("two\ 1\ \(1\).png");
+  background: url("./img/two\ 1\ \(1\).png");
   margin: 0 auto;
+  position: relative;
   width: 1440.067px;
   height: 889px;
 }
@@ -23,7 +19,7 @@ header {
   font-size: 18px;
   font-weight: 700;
   position: absolute;
-  top: 60px;
+  top: 45px;
   left: 120px;
 }
 
@@ -32,9 +28,11 @@ header {
   display: flex;
   gap: 44px;
   position: absolute;
-  top: 40px;
-  left: 600px;
+  top: 35px;
+  left: 560px;
   list-style-type: none;
+  font-size: 14px;
+  font-weight: 700;
 }
 
 button {
@@ -46,9 +44,8 @@ button {
   background: var(--yeallow-brand-color, #fc0);
   display: flex;
   position: absolute;
-  margin-left: 1110px;
-  top: 48px;
-  display: flex;
+  left: 1110px;
+  top: 35px;
   justify-content: center;
   align-items: center;
 }
@@ -67,7 +64,7 @@ p {
   font-size: 64px;
   font-weight: 600;
   position: absolute;
-  top: 213px;
+  top: 150px;
   left: 120px;
 }
 
@@ -77,7 +74,7 @@ p {
   height: 205px;
   border-radius: 50%;
   position: absolute;
-  top: 378px;
+  top: 350px;
   left: 120px;
 }
 
@@ -86,7 +83,7 @@ p {
   font-size: 63.896px;
   font-weight: 700;
   position: absolute;
-  left: 40px;
+  left: 45px;
   top: 15px;
 }
 
@@ -104,9 +101,9 @@ p {
   font-size: 36px;
   font-weight: 600;
   position: absolute;
-  top: 385px;
+  top: 335px;
   left: 354px;
-  right: 840px;
+  right: 750px;
 }
 
 button-2 {
@@ -118,9 +115,76 @@ button-2 {
   background: var(--yeallow-brand-color, #fc0);
   display: flex;
   position: absolute;
-  top: 845px;
+  top: 645px;
   left: 120px;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.page-2 {
+  width: 1440px;
+  height: 800px;
+  background: white;
+  position: absolute;
+  top: 800px;
+}
+
+.top {
+  color: var(--yeallow-brand-color, #fc0);
+  font-size: 18px;
+  font-weight: 600;
+  position: absolute;
+  top: 115px;
+  left: 671px;
+}
+
+.categories {
+  color: var(--black-font-color, #231900);
+  font-size: 55px;
+  font-weight: 600;
+  position: absolute;
+  top: 142px;
+  left: 506px;
+}
+
+.product-card {
+  width: 1153px;
+  height: 502px;
+  position: absolute;
+  top: 600px;
+  left: 1120px;
+}
+
+.card{
+  display: flex;
+  gap: 30px;
+}
+
+img{
+  width: 277px;
+  height: 502px;
+  position: absolute;
+  top: 210px;
+  left: 130px;
+  display: flex;
+  gap: 30px;
+}
+
+.product-name {
+  color: var(--black-font-color, #231900);
+  font-size: 24px;
+  font-weight: 700;
+  position: absolute;
+  top: 570px;
+  left: 200px;
+}
+
+.product-info {
+  color: var(--black-font-color, #231900);
+  font-size: 20px;
+  font-weight: 600;
+  position: absolute;
+  top: 615px;
+  left: 150px;
 }

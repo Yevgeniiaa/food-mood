@@ -148,43 +148,105 @@ button-2 {
   left: 506px;
 }
 
-.product-card {
-  width: 1153px;
-  height: 502px;
-  position: absolute;
-  top: 600px;
-  left: 1120px;
+.product-cards {
+  width: 100%;
+  height: 800px;
 }
 
-.card{
-  display: flex;
-  gap: 30px;
-}
-
-img{
-  width: 277px;
-  height: 502px;
+.pizza-card {
   position: absolute;
   top: 210px;
-  left: 130px;
-  display: flex;
-  gap: 30px;
+  left: 120px;
 }
 
-.product-name {
+.pizza-name {
+  position: absolute;
+  top: 355px;
+  left: 100px;
   color: var(--black-font-color, #231900);
   font-size: 24px;
   font-weight: 700;
-  position: absolute;
-  top: 570px;
-  left: 200px;
 }
 
-.product-info {
+.pizza-info {
+  position: absolute;
+  top: 405px;
+  left: 25px;
   color: var(--black-font-color, #231900);
   font-size: 20px;
   font-weight: 600;
-  position: absolute;
-  top: 615px;
-  left: 150px;
 }
+
+.pasta-card {
+  position: absolute;
+  top: 210px;
+  left: 420px;
+}
+
+.pasta-name {
+  position: absolute;
+  top: 355px;
+  left: 105px;
+  color: var(--black-font-color, #231900);
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.pasta-info {
+  position: absolute;
+  top: 405px;
+  left: 30px;
+  color: var(--black-font-color, #231900);
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.snakes-card {
+  position: absolute;
+  top: 210px;
+  left: 730px;
+}
+
+.snakes-name {
+  position: absolute;
+  top: 355px;
+  left: 95px;
+  color: var(--black-font-color, #231900);
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.snakes-info {
+  position: absolute;
+  top: 405px;
+  left: 20px;
+  color: var(--black-font-color, #231900);
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.burger-card {
+  position: absolute;
+  top: 210px;
+  left: 1040px;
+}
+
+.burger-name {
+  position: absolute;
+  top: 355px;
+  left: 90px;
+  color: var(--black-font-color, #231900);
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.burger-info {
+  position: absolute;
+  top: 405px;
+  left: 15px;
+  color: var(--black-font-color, #231900);
+  font-size: 20px;
+  font-weight: 600;
+}
+
+

@@ -122,6 +122,11 @@ button-2 {
   align-items: center;
 }
 
+.page-2 {
+  width: 1440px;
+  height: 800px;
+}
+
 .top {
   color: var(--yeallow-brand-color, #fc0);
   font-size: 18px;

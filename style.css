@@ -249,4 +249,10 @@ button-2 {
   font-weight: 600;
 }
 
+.yellow {
+  background: yellow;
+  width: 1440px;
+  height: 400px;
+}
+
 

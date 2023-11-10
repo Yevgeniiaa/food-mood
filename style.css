@@ -130,25 +130,21 @@ button-2 {
 
 .categories {
   width: 1440px;
-  height: 620px;
+  height: 800px;
 }
 
 .top {
   color: var(--yeallow-brand-color, #fc0);;
   font-size: 18px;
   font-weight: 600;
-  position: absolute;
-  top: 925px;
-  left: 1110px;
+  margin-top: 20px;
 }
 
 .our-categories {
   color: var(--black-font-color, #231900);
   font-size: 55px;
   font-weight: 600;
-  position: absolute;
-  top: 950px;
-  left: 945px;
+  margin: 5px 0 0 505px;
 }
 
 
@@ -170,14 +166,16 @@ button-2 {
   color: var(--black-font-color, #231900);
   font-size: 24px;
   font-weight: 700;
-  margin: 0 auto;
+  margin-top: -140px;
+  margin-left: -10px;
 }
 
 .info {
   color: var(--black-font-color, #231900);
   font-size: 20px;
   font-weight: 600;
-  margin: 0 auto;
+  margin-top: -10px;
+  margin-left: -25px;
 }
 
 
@@ -187,6 +185,7 @@ button-2 {
   background: var(--yeallow-brand-color, #fc0);
   width: 1440px;
   height: 400px;
+  margin-top: -200px;
 }
 
 .block {

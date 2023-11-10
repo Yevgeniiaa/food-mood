@@ -5,6 +5,11 @@ body {
   background: white;
 }
 
+.container {
+ width: 1400px;
+ margin: 0 auto;
+}
+
 header {
   display: flex;
   background: url("./img/two\ 1\ \(1\).png");
@@ -123,135 +128,68 @@ button-2 {
   align-items: center;
 }
 
-
+.categories {
+  width: 1440px;
+  height: 620px;
+}
 
 .top {
-  color: var(--yeallow-brand-color, #fc0);
+  color: var(--yeallow-brand-color, #fc0);;
   font-size: 18px;
   font-weight: 600;
   position: absolute;
-  top: 115px;
-  left: 671px;
+  top: 925px;
+  left: 1110px;
 }
 
-.categories {
+.our-categories {
   color: var(--black-font-color, #231900);
   font-size: 55px;
   font-weight: 600;
   position: absolute;
-  top: 142px;
-  left: 506px;
+  top: 950px;
+  left: 945px;
 }
+
+
 
 .product-cards {
   width: 100%;
-  height: 800px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 30px;
 }
 
-.pizza-card {
-  position: absolute;
-  top: 210px;
-  left: 120px;
+.card {
+  width: 277px;
+  text-align: center;
 }
 
-.pizza-name {
-  position: absolute;
-  top: 355px;
-  left: 100px;
+.name {
   color: var(--black-font-color, #231900);
   font-size: 24px;
   font-weight: 700;
+  margin: 0 auto;
 }
 
-.pizza-info {
-  position: absolute;
-  top: 405px;
-  left: 25px;
+.info {
   color: var(--black-font-color, #231900);
   font-size: 20px;
   font-weight: 600;
+  margin: 0 auto;
 }
 
-.pasta-card {
-  position: absolute;
-  top: 210px;
-  left: 420px;
-}
-
-.pasta-name {
-  position: absolute;
-  top: 355px;
-  left: 105px;
-  color: var(--black-font-color, #231900);
-  font-size: 24px;
-  font-weight: 700;
-}
-
-.pasta-info {
-  position: absolute;
-  top: 405px;
-  left: 30px;
-  color: var(--black-font-color, #231900);
-  font-size: 20px;
-  font-weight: 600;
-}
-
-.snakes-card {
-  position: absolute;
-  top: 210px;
-  left: 730px;
-}
-
-.snakes-name {
-  position: absolute;
-  top: 355px;
-  left: 95px;
-  color: var(--black-font-color, #231900);
-  font-size: 24px;
-  font-weight: 700;
-}
-
-.snakes-info {
-  position: absolute;
-  top: 405px;
-  left: 20px;
-  color: var(--black-font-color, #231900);
-  font-size: 20px;
-  font-weight: 600;
-}
-
-.burger-card {
-  position: absolute;
-  top: 210px;
-  left: 1040px;
-}
-
-.burger-name {
-  position: absolute;
-  top: 355px;
-  left: 90px;
-  color: var(--black-font-color, #231900);
-  font-size: 24px;
-  font-weight: 700;
-}
-
-.burger-info {
-  position: absolute;
-  top: 405px;
-  left: 15px;
-  color: var(--black-font-color, #231900);
-  font-size: 20px;
-  font-weight: 600;
-}
 
 
 .yellow {
+  position: relative;
   background: var(--yeallow-brand-color, #fc0);
   width: 1440px;
   height: 400px;
 }
 
-.block-1 {
+.block {
   width: 380px;
   height: 400px;
 }
@@ -267,7 +205,6 @@ button-2 {
   position: absolute;
   top: 43px;
   left: 252px;
-  
 }
 
 .order {
@@ -277,7 +214,7 @@ button-2 {
   position: absolute;
   top: 200px;
   left: 224px;
-  right: 1044px;
+  right: 1000px;
   text-align: center;
 }
 
@@ -291,11 +228,6 @@ button-2 {
   position: absolute;
   top: 289px;
   left: 120px;
-}
-
-.block-2 {
-  width: 380px;
-  height: 400px;
 }
 
 .burger-1 {
@@ -317,8 +249,8 @@ button-2 {
   font-weight: 700;
   position: absolute;
   top: 200px;
-  left: 670px;
-  right: 660px;
+  left: 640px;
+  right: 600px;
   text-align: center;
 }
 
@@ -332,13 +264,6 @@ button-2 {
   position: absolute;
   top: 289px;
   left: 530px;
-}
-
-
-
-.block-3 {
-  width: 380px;
-  height: 400px;
 }
 
 .clock {
@@ -360,8 +285,8 @@ button-2 {
   font-weight: 700;
   position: absolute;
   top: 200px;
-  left: 1050px;
-  right: 238px;
+  left: 1046px;
+  right: 186px;
   text-align: center;
 }
 

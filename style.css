@@ -395,7 +395,7 @@ button-2 {
 .container-promote {
   width: 277px;
   height: 270px;
-  margin: 41px 0 0 427px;
+  margin: 0 0 0 427px;
 }
 
 .human {
@@ -404,8 +404,10 @@ button-2 {
   height: 100px;
 }
 
-.ellipse-photo {
+.ellips-photo {
   width: 585px;
   height: 585px;
+  border-radius: 585px;
   background: url(./img/ellipse-girl.png);
+  margin: 108px 120px 107px 735px;
 }

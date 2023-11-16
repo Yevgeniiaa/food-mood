@@ -6,18 +6,17 @@ body {
 }
 
 .container {
- width: 1400px;
- margin: 0 auto;
+  width: 1400px;
+  margin: 0 auto;
 }
 
 header {
   display: flex;
-  background: url("./img/two\ 1\ \(1\).png");
+  background-image: url(./img/bg-image.png);
   margin: 0 auto;
   position: relative;
   width: 1440.067px;
   height: 889px;
-  clip-path: blob(0 0, 100% 0, 84% 73%, 12% 75%);
 }
 
 .main {
@@ -134,20 +133,18 @@ button-2 {
 }
 
 .top {
-  color: var(--yeallow-brand-color, #fc0);;
+  color: var(--yeallow-brand-color, #fc0);
   font-size: 18px;
   font-weight: 600;
-  margin: 25px 0 0 670px;
+  text-align: center;
 }
 
 .our-categories {
   color: var(--black-font-color, #231900);
   font-size: 55px;
   font-weight: 600;
-  margin: 5px 0 0 505px;
+  text-align: center;
 }
-
-
 
 .product-cards {
   width: 100%;
@@ -177,8 +174,6 @@ button-2 {
   margin-top: -10px;
   margin-left: -25px;
 }
-
-
 
 .yellow {
   position: relative;
@@ -299,4 +294,118 @@ button-2 {
   position: absolute;
   top: 289px;
   left: 940px;
+}
+
+.place {
+  width: 1440px;
+  height: 820px;
+  background: var(--white-semi-white, #f5f5f5);
+}
+
+.kitchen {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 29px;
+}
+
+.photo {
+  display: flex;
+  flex-direction: column;
+}
+
+.point {
+  text-align: center;
+  margin: 20px 0 0 10px;
+}
+
+.address {
+  color: var(--black-font-color, #231900);
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+  width: 380px;
+}
+
+.advertisement {
+  width: 1440px;
+  height: 800px;
+  background: var(--white-secondery-color, #fff);
+}
+
+.top-2 {
+  color: var(--yeallow-brand-color, #fc0);
+  font-size: 18px;
+  font-weight: 600;
+  margin: 108px 0 0 128px;
+}
+
+.get {
+  color: var(--black-font-color, #231900);
+  font-size: 55px;
+  font-weight: 600;
+  margin: 10px 0 0 120px;
+}
+
+.line {
+  width: 175px;
+  height: 5px;
+  background: #fc0;
+  margin: 16px 0 0 121px;
+}
+
+.every {
+  color: var(--black-font-color, #231900);
+  font-size: 26px;
+  font-weight: 600;
+  margin: 16px 735px 0 121px;
+}
+
+.text-1 {
+  color: var(--black-font-color, #231900);
+  font-size: 17px;
+  font-weight: 400;
+  margin: 16px 735px 0 120px;
+}
+
+.container-food {
+  width: 277px;
+  height: 270px;
+  margin: 41px 0 0 120px;
+}
+
+.bag-money {
+  background: url(./img/money.png);
+  width: 100px;
+  height: 100px;
+}
+
+.food-order {
+  color: var(--black-font-color, #231900);
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.food-text {
+  color: var(--black-font-color, #231900);
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.container-promote {
+  width: 277px;
+  height: 270px;
+  margin: 41px 0 0 427px;
+}
+
+.human {
+  background: url(./img/human.png);
+  width: 100px;
+  height: 100px;
+}
+
+.ellipse-photo {
+  width: 585px;
+  height: 585px;
+  background: url(./img/ellipse-girl.png);
 }

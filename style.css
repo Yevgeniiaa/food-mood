@@ -409,5 +409,188 @@ button-2 {
   height: 585px;
   border-radius: 585px;
   background: url(./img/ellipse-girl.png);
-  margin: -408px 120px 107px 735px;
+  margin: -608px 120px 107px 735px;
+}
+
+.line-1 {
+  width: 175px;
+  height: 5px;
+  background: #fc0;
+  margin: 25px 617px 0 618px;
+}
+
+.cook {
+  width: 1440px;
+  height: 800px;
+}
+
+.chef-cards {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  margin: 84px 0 0 120px;
+}
+
+.chef {
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  width: 300px;
+}
+
+.name {
+  color: var(--black-font-color, #231900);
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 37px;
+}
+
+.profession {
+  color: var(--black-font-color, #231900);
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 13px;
+}
+
+.block-yellow {
+  width: 1440px;
+  height: 734px;
+  background: linear-gradient(91deg, #fc0 17.25%, rgba(255, 204, 0, 0) 178.38%);
+  display: flex;
+  flex-direction: column;
+}
+
+.discount-get-20 {
+  color: var(--white-secondery-color, #fff);
+  font-size: 55px;
+  font-weight: 700;
+  margin: 201px 0 0 121px;
+}
+
+.foodmood-app {
+  color: var(--white-secondery-color, #fff);
+  font-size: 26px;
+  font-weight: 600;
+  margin: 32px 735px 0 121px;
+}
+
+.google-play {
+  margin: 73px 1143px 212px 121px;
+}
+
+.app-store {
+  margin: -275px 955px 212px 309px;
+}
+
+.phone {
+  margin: -600px 10px 0 735px;
+}
+
+.categories-icon {
+  width: 1440px;
+  height: 350px;
+}
+
+.icon {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  margin: 75px 0 0 120px;
+  width: 278px;
+  height: 200px;
+}
+
+.footer {
+  width: 1440px;
+  height: 586px;
+}
+
+.viva {
+  color: var(--black-font-color, #231900);
+  font-size: 17px;
+  font-weight: 400;
+  margin: 47px 940px 336px 120px;
+}
+
+.social-icon {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  margin: -257px 1200px 257px 120px;
+}
+
+.list {
+  display: flex;
+  flex-direction: row;
+  gap: 82px;
+  margin: -520px 0 0 530px;
+}
+
+.our {
+  color: var(--black-font-color, #231900);
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.colon {
+  color: var(--black-font-color, #231900);
+  font-size: 17px;
+  font-weight: 400;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+  margin: 70px 0 0 -245px;
+}
+
+.list-1 {
+  display: flex;
+  flex-direction: row;
+  gap: 82px;
+  margin: -215px 0 0 787px;
+}
+
+.colon-1 {
+  color: var(--black-font-color, #231900);
+  font-size: 17px;
+  font-weight: 400;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+  margin: 73px 0 0 -245px;
+}
+
+.list-2 {
+  display: flex;
+  flex-direction: row;
+  gap: 82px;
+  margin: -215px 0 0 1043px;
+}
+
+.colon-2 {
+  color: var(--black-font-color, #231900);
+  font-size: 17px;
+  font-weight: 400;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+  margin: 73px 0 0 -305px;
+}
+
+.copy {
+  color: var(--black-font-color, #231900);
+  font-size: 18px;
+  font-weight: 400;
+  margin: 186px 1056px 43px 110px;
+}
+
+.powered {
+  color: var(--black-font-color, #231900);
+  font-size: 18px;
+  font-weight: 400;
+  margin: -85px 119px 43px 1067px;
 }

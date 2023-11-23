@@ -159,7 +159,7 @@ button-2 {
   text-align: center;
 }
 
-.name {
+.food-name {
   color: var(--black-font-color, #231900);
   font-size: 24px;
   font-weight: 700;

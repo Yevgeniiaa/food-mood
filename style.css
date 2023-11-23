@@ -155,24 +155,32 @@ button-2 {
 }
 
 .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 502px;
   width: 277px;
   text-align: center;
+  position: relative;
+}
+
+.img-card {
+  width: 277px;
+  display: block;
+  position: absolute;
+  top: 5px;
 }
 
 .food-name {
   color: var(--black-font-color, #231900);
   font-size: 24px;
   font-weight: 700;
-  margin-top: -150px;
-  margin-left: -10px;
 }
 
 .info {
   color: var(--black-font-color, #231900);
   font-size: 20px;
   font-weight: 600;
-  margin-top: -10px;
-  margin-left: -25px;
 }
 
 .yellow {
